@@ -4,6 +4,12 @@ Reusable **OpenAI Codex OAuth device-code login** — the flow behind
 `codex login --device-auth` and `hermes auth add openai-codex --type oauth`.
 It signs into an OpenAI/ChatGPT account **you already own**.
 
+> Canonical operator runbook for the **Hermes router lane** (single-holder,
+> migration, recovery, kill-switches):
+> `hermes-orchestration/docs/RUNBOOK-openai-codex-oauth.md`.
+> This repo provides the reusable device-code client; the lane runbook is the
+> source of truth for how the credential is owned and recovered.
+
 > Out of scope by design: creating OpenAI accounts (incl. phone verification)
 > and purchasing subscriptions. This connects one account you control.
 
